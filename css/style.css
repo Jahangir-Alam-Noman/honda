@@ -1,0 +1,49 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Common Styles */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.btn_honda{
+  background-color: #E76F51;
+}
+.text_honda{
+    color: #E76F51;
+  }
+
+
+/* Banner part */
+#banner{
+    background-color: #264653;
+}
+
+/* Featured Bikes */
+#featured_bikes .h5::after {
+    display: block;
+    height: 4px;
+    background-color: #E76F51;
+    content: " ";
+    width: 80px;
+    margin: .5rem auto 1.5rem auto;
+}
+.img_gray{
+    filter: grayscale(100%);
+}
+
+/* Clients says */
+#client_says img{
+    width: 200px;
+}
+
+/* News Room  */
+#news_room img{
+    width: 200px;
+}
+
+/* Footer part */
+#bg_footer{
+    background-color: #000000;
+}
+
